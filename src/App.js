@@ -16,6 +16,7 @@ function App() {
           path="/"
           element={
             <>
+            {/* <Navbar> */}
               <Navbar />
               <Home />
               <About />
@@ -35,7 +36,7 @@ function App() {
           }
         />
         <Route
-          path="/categories/:id"
+          path="/categories"
           element={
             <>
               <Navbar />
