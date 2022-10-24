@@ -16,11 +16,14 @@ function App() {
           path="/"
           element={
             <>
+            <Navbar />
               
               <Home />
+        <About />
+              <Categories />
+              <Footer />
+             </>
             
-             
-            </>
           }
         />
         <Route
