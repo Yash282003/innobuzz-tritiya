@@ -3,12 +3,12 @@
 	padding:0px;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
-	border-radius: 20px;
+	
 }
 .section{
 	width: 100%;
 	min-height: 100vh;
-	background-color: rgb(26, 25, 25);
+	background-color: rgb(25, 9, 56);
     padding-top: 40px;
 }
 .container{
@@ -32,10 +32,11 @@
 	height: auto;
 }
 .content-section .title{
-    color: #115173;
+    color: #FFFFFF;
 	text-transform: uppercase;
-	font-size: 35px;
+	font-size: 45px;
     margin-left: 0px;
+	transform: scale(1,1);
 	
 }
 .content-section .content h2{
@@ -61,7 +62,7 @@
 	
 }
 .content-section .content .button a{
-	background-color: #115173;
+	background-color: #FFD700;
 	color: #FFFFFF;
 	padding:12px 40px;
 	text-decoration: none;
@@ -70,8 +71,8 @@
     border-radius: 30px;
 	}
 .content-section .content .button a:hover{
-	background-color: #FFD700;
-	color:#115173;
+	background-color: #FFFFFF;
+	color:#131313;
 }
 .content-section .social{
 	margin: 40px 40px;
@@ -91,162 +92,67 @@
 		display: none;
 	}
 }
-@media screen and (max-width:1050px){
+@media screen and (max-width:600px){
 	.hd1{
-		font-size: 60px;
+		font-size: 85px;
+		
 	}
-}
-@media screen and (max-width:900px){
-	.hd1{
-		font-size: 55px;
-	}
-}
-@media screen and (max-width:875px){
-	.hd1{
-		font-size: 50px;
-	}
-}
-@media screen and (max-width:740px){
-	.hd1{
-		font-size: 45px;
+	.content-section .content h2{
+					
+		font-size: 18px;
 		
 	}
 	.content-section .content p{
-		font-size: 14px;
-		width: 350px;
-			display: flex;
-			flex-wrap: wrap;
+		font-size: 15px;
+		width: 450px;	
 		}
-}
 
-@media screen and (max-width:670px){
+}
+@media screen and (max-width:540px){
 	.hd1{
-		font-size: 40px;
-	}
-}
-@media screen and (max-width:600px){
-	.hd1{
-		font-size: 30px;
-	}
-    .content-section .content p{
-		font-size: 14px;
-		width: 400px;
-			display: flex;
-			flex-wrap: wrap;
-}}
-	@media screen and (max-width:460px){
-		.hd1{
-			font-size: 25px;
-			
-		}
-		.content-section .content p{
-			font-size: 12px;
-			width: 400px;
-				display: flex;
-				flex-wrap: wrap;
-			}
-	}
-	@media screen and (max-width:460px){
-		.content-section .content p{
-			font-size: 12px;
-			width: 350px;
-				}
-.content-section .content h2{
-					
-					font-size: 18px;
-				}
-			}
-@media screen and (max-width:380px){
-				.content-section .content p{
-					
-					width: 300px;
-						}
-						.hd1{
-							font-size: 20px;
-							
-						}			
-					}
-
-
-/*@media(max-width:600){
-	.container{
-		display: flex;
-		width: 40%;
-	}
-}
-@media(max-width:480px){
-	.content-section{
-		float:left;
-		width:30%;
-		display: flex;
-		margin:0px;
+		font-size: 75px;
 		
-}}
-
-@media (max-width: 1024px){
-	.container{
-    display: flex;
-	width: 50%;
-	
-	margin-left: 0px;
-	padding-top:100px;
-	
-}
-.content-section{
-	float:left;
-	width:90%;
-	display: flex;
-	margin:0px;
-    
-}
-.content-section .content p{
-	font-size: 10px;
-}
-.image-section{
-	float:none;
-	width:100%;
-	display: none;
-	
-}
-.image-section {
-	width: 50%;
-	height: 50%;
-	display: none;
-	margin:auto;
-}
-.content-section .title{
-	text-align: center;
-	font-size: 19px;
-}
-.content-section .content .button{
-	text-align: center;
-}
-.content-section .content .button a{
-	padding:9px 30px;
-}
-.content-section .social{
-	text-align: center;
-}
+	}
+	.content-section .content h2{
+					
+		font-size: 16px;
+		
+	}
+	.content-section .content p{
+		font-size: 15px;
+		width: 400px;	
+		}
 
 }
-/*@media (max-width: 1104px) {
-     .img{
-        height: 350px;
-        width: 350px;
-    }
-}
-@media (max-width: 947px){
-	.container{
-        width: 100%;
-    }
-    .img{
-        display: flex;
-        justify-content: center;
-        margin: 0 auto 60px;
-    }
-     .content-section{
-        flex: 100%;
-    }
-   
+@media screen and (max-width:480px){
+	.hd1{
+		font-size: 70px;
+		
+	}
+	.content-section .content h2{
+					
+		font-size: 15px;
+		
+	}
+	.content-section .content p{
+		font-size: 15px;
+		width: 350px;	
+		}
 
-    }*/
+}
+@media screen and (max-width:430px){
+	.hd1{
+		font-size: 55px;
+		
+	}
+	.content-section .content h2{
+					
+		font-size: 12px;
+		
+	}
+	.content-section .content p{
+		font-size: 15px;
+		width: 280px;	
+		}
+
+}
