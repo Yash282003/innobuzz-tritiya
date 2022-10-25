@@ -16,10 +16,9 @@ function App() {
           path="/"
           element={
             <>
-           
-              
+              <Navbar />
               <Home />
-        <About />
+              <About />
               <Categories />
               <Contactus/>
               <Footer />
@@ -37,7 +36,7 @@ function App() {
           }
         />
         <Route
-          path="/categories/:id"
+          path="/categories"
           element={
             <>
               <Navbar />
