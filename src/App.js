@@ -18,7 +18,7 @@ function App() {
             <>
               <Navbar />
               <Home />
-              {/* <About /> */}
+              <About />
               <Categories />
               <Contactus />
               <Footer />
@@ -40,14 +40,6 @@ function App() {
             <>
               <Navbar />
               <CategoriesDetail />
-            </>
-          }
-        />
-        <Route
-          path="/about"
-          element={
-            <>
-              <About />
             </>
           }
         />
