@@ -6,62 +6,41 @@
   background: #001325;
 }
 .footer > h1 {
-  width: 634px;
-  height: 100px;
+  width: 900px;
+  /* height: 100px; */
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 42px;
-  /* or 173% */
-  margin:5vw 20vw 0vw 20vw;
+  font-size: 50px;
+  margin:0vw 10vw 0vw 20vw;
   letter-spacing: 0.015em;
 
   color: rgba(255, 255, 255, 0.8);
 }
-.button1 {
-    height: 10vh;
-    width: 35vw;
-  background: #9acdff;
-  border: 5px solid #9acdff;
-  border-radius: 40px;
-  margin-right: 5vw;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 2vw;
-  line-height: 34px;
-  /* identical to box height */
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  letter-spacing: -0.015em;
-
-  color: #ffffff;
-}
-.button2 {
+.footer > button  {
   height: 10vh;
   width: 35vw;
   background: #001325;
   color: #9acdff;
   border: 5px solid #e4e7ea;
   border-radius: 40px;
-  margin-right: 100px;
-
+  margin-right: 10vw;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 2vw;
   line-height: 34px;
-  /* identical to box height */
-
   display: flex;
   align-items: center;
   justify-content: center;
   letter-spacing: 0.015em;
 }
-
+.footer > button:hover {
+  cursor: pointer;
+  background: #9acdff;
+  border: 5px solid #9acdff;
+  color: #ffffff;
+}
 .footer1 {
   width: 100%;
   height: 501px;

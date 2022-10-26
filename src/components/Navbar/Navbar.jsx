@@ -8,27 +8,27 @@ const Navbar = () => {
       <ul className="ulNav">
         <li className="li">
           <h5>
-            <b>About</b>
+            <a href="" className={classes.a}><b>About</b></a>
           </h5>
         </li>
         <li className="li">
           <h5>
-            <b>Details</b>
+          <a href="" className={classes.a}><b>Details</b></a>
           </h5>
         </li>
         <li className="li">
           <h5>
-            <b>Sponsors</b>
+          <a href="" className={classes.a}><b>Sponsors</b></a>
           </h5>
         </li>
         <li className="li">
           <h5>
-            <b>FAQs</b>
+          <a href="" className={classes.a}><b>FAQs</b></a>
           </h5>
         </li>
         <li className="li">
           <h5>
-            <b>Support</b>
+          <a href="" className={classes.a}><b>Support</b></a>
           </h5>
         </li>
       </ul>
