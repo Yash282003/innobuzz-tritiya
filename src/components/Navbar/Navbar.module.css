@@ -4,17 +4,34 @@
   background-color: #001325;
   display: flex;
   align-items: center;
-  color: aliceblue;
+ 
   align-items: center;
   /* justify-content: space-between; */
 }
-.navbar > ul {
+.navbar > ul  {
   display: flex;
   list-style-type: none;
+  text-decoration: none;
   margin-left: 5vw;
   margin-right: 5vw;
   align-items: center;
   justify-content: center;
+}
+.a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.a :hover{
+  padding-bottom: 20px;
+  border-bottom: .21rem solid  #9ACDFF;
+  border-radius: 2px;
+  /* border-inline-color: white; */
+}
+.navbar >button:hover{
+  cursor: pointer;
+  background: #9acdff;
+  border: 5px solid #9acdff;
+  color: #ffffff;
 }
 .navbar > ul >li{
     padding-right:2vw;
@@ -27,7 +44,7 @@
 }
 .navbar > button {
    width: 10vw;
-   height: 5vh;
+   height: 6vh;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
