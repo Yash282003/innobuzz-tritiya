@@ -1,9 +1,9 @@
-/* @font-face {
+@font-face {
     font-family: 'Product Sans-Bold';
     src: url("https://fonts.animapp.com/ProductSans-Bold")format("truetype");
 }
 .details-view{
-    background-color: rgba(255,255,255,1);
+    /* background-color: rgba(255,255,255,1); */
     border: 1px none;
     border-radius: 10px;
     box-shadow: 4px 4px 10px #06283d33;
@@ -14,13 +14,14 @@
 }
 
 .rectangle-5{
-    background-color: rgba(6,40,61,0.051);
+    background-color: white;
+    color: black;
     border: 1px none;
     border-radius: 10px;
     height: 145px;
     left: 0;
     position: absolute;
-    top: 40px;
+    top: 80px;
     width: 856px;
 }
 
@@ -130,7 +131,7 @@
 
 
 .productsans-bold-daintree-22px{
-    color: rgba(6,40,61,1);
+    color: rgb(18, 19, 20);
     font-family: "Trebuchet MS", Helvetica, sans-serif;;
     font-size: 22px;
     font-weight: 700;
@@ -139,7 +140,7 @@
 
 .productsans-bold-boston-blue-18px
 {
-    color: rgba(50,152,171,1);
+    color: rgb(232, 249, 252);
     font-family: "Trebuchet MS", Helvetica, sans-serif;;
     font-size: 18px;
     font-weight: 700;
@@ -156,19 +157,19 @@
 }
 .fakeimg{
     height: 40px;
-    background-color: #aaa;
+    /* background-color: #aaa; */
     width: 100%;
     padding: 10px;
 }
 .fakeimg1{
     height: 200px;
-    background-color: #aaa;
+    /* background-color: #aaa; */
     width: 100%;
     padding: 10px;
 }
 
 .side{
-    background-color: rgba(255,255,255,1);
+    /* background-color: rgba(255,255,255,1); */
     border: 1px none;
     border-radius: 10px;
     box-shadow: 4px 4px 10px #06283d33;
@@ -207,4 +208,4 @@
       width: 100%;
     }
   }
- */
+
