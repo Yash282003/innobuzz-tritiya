@@ -21,7 +21,7 @@ function App() {
               <Home />
         <About />
               <Categories />
-              <Contactus/>
+              {/* <Contactus/> */}
               <Footer />
              </>
             
